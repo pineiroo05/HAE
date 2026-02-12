@@ -1,0 +1,15 @@
+*.asm
+*.bmk
+*.brk
+*.c.ini
+*.cfg
+*.cp
+*.dbg
+*.dct
+*.dlt
+*.log
+*.lst
+*.mcl
+*.user.dic
+*_callertable.txt
+__History/
