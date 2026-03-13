@@ -65,10 +65,13 @@ Si vamos al codigo, se puede ver que en T0CON estoy poniendo 0x06. Esto es pq el
 ### Diagramas en proteus
 
 [!Apartado b](./img/b2.png)
+
 [!Apartado b](./img/b3.png)
+
 - Apartado b: PIC18F452, DIODE-SC, FMM619, MOTOR, RES, LOGICTOGGLE, CELL
 
 [!Apartado c](./img/c.png)
+
 - Apartado c: PIC18F452, Button, Led-green, Led-red, Res, Counter timer
 
 *El counter timer se saca en el menu 'Virtual instruments mode'*
