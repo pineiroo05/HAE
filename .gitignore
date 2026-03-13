@@ -12,4 +12,7 @@
 *.mcl
 *.user.dic
 *_callertable.txt
+*.pdsbak
+*.workspace
+*.RHistory
 __History/
