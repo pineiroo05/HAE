@@ -50,6 +50,7 @@ Conocido alfa, ahora lo ultimo que queda es guardar el valor. Para ello como usa
  TMR0L = alfa;
 ```
 Otra cosa importante es la configuracion de T0CON. Este es el registro que nos permite controlar el timer. En nuestro caso es 10000001 == 0x81.
+
 ![T0CON](./img/t0con.png)
 
 ### Apartado c
