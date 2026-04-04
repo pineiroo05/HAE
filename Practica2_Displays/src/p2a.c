@@ -23,7 +23,7 @@ void main() {
                        PORTA.B1 = 1;
                        delay_ms(10);
               }
-              unidades++;
+              unidades++; 
               if(unidades > 9){
                           decenas++;
                           unidades = 0;
