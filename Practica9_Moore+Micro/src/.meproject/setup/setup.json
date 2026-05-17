@@ -1,0 +1,288 @@
+{
+    "build_system": {
+        "settings": {
+            "CORE_NAME": "P18",
+            "HAS_MIKROBUS": "true",
+            "MCU_NAME": "PIC18F452",
+            "MSDK_HAL_LOW_LEVEL_TARGET": "mikroe",
+            "_MSDK_BOARD_NAME_": "BOARD_EASYPIC_V7",
+            "_MSDK_DIP_SOCKET_TYPE_": "DIP40",
+            "_MSDK_ETH_PHY_CHIP_": "NULL",
+            "_MSDK_HAL_LOW_LEVEL_TARGET_": "mikroe",
+            "_MSDK_MCU_CARD_NAME_": "",
+            "_MSDK_PACKAGE_ID_": "",
+            "_MSDK_PACKAGE_NAME_": "",
+            "_MSDK_PACKAGE_PIN_COUNT_": "40",
+            "_MSDK_SHIELD_": "",
+            "_MSDK_TFT_BOARD_": "TFT_BOARD_EASY",
+            "_MSDK_TFT_HEIGHT_": "240",
+            "_MSDK_TFT_TP_": "__TP_MIKROE__",
+            "_MSDK_TFT_TP_CONTROLLER_": "__TP_MIKROE_TRANSISTOR_LOGIC__",
+            "_MSDK_TFT_TP_ROTATE_": "TP_ROTATE_0",
+            "_MSDK_TFT_TYPE_": "__TFT_RESISTIVE__",
+            "_MSDK_TFT_WIDTH_": "320",
+            "board": null,
+            "compiler": null,
+            "device": null,
+            "flatten_level": "FLATTEN_ME_LEVEL_HIGH",
+            "standard_output": "Application output"
+        },
+        "steps": {
+            "build": [
+                {
+                    "arguments": "--build all",
+                    "command": "cmake",
+                    "type": "cmake"
+                }
+            ],
+            "clean": [
+                {
+                    "arguments": "--clean",
+                    "command": "cmake",
+                    "type": "cmake"
+                }
+            ]
+        },
+        "uid": "cmake"
+    },
+    "enabled_in_view": true,
+    "from_productivity_hub": false,
+    "is_default": false,
+    "is_valid": true,
+    "name": "My Configuration 1",
+    "prog": {
+        "has_erase": true,
+        "uid": "gdb_general"
+    },
+    "sdk": {
+        "flatten_level": "FLATTEN_ME_LEVEL_HIGH",
+        "icon": "images/mikrosdk.png",
+        "installed": 1,
+        "isBareMetal": true,
+        "legacy": 0,
+        "name": "mikroSDK",
+        "sdk_development_kit": 0,
+        "standard_output": "Application output",
+        "uid": "mikrosdk_v21711",
+        "version": "2.17.11"
+    },
+    "target": {
+        "board": {
+            "mikrobus_count": 2,
+            "uid": "EASYPIC_V7"
+        },
+        "display": {
+            "height": 240,
+            "uid": "TFT_BOARD_EASY",
+            "width": 320
+        },
+        "mcu": {
+            "flash": 32768,
+            "isDebugSupported": true,
+            "ram": 1536,
+            "settings": {
+                "clock": 16,
+                "config_registers": [
+                    {
+                        "fields": [
+                            {
+                                "key": "OSC",
+                                "value": "00000007"
+                            },
+                            {
+                                "key": "OSCS",
+                                "value": "00000020"
+                            }
+                        ],
+                        "key": "CONFIG1H"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "PWRT",
+                                "value": "00000001"
+                            },
+                            {
+                                "key": "BOR",
+                                "value": "00000002"
+                            },
+                            {
+                                "key": "BORV",
+                                "value": "0000000c"
+                            }
+                        ],
+                        "key": "CONFIG2L"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "WDT",
+                                "value": "00000001"
+                            },
+                            {
+                                "key": "WDTPS",
+                                "value": "0000000e"
+                            }
+                        ],
+                        "key": "CONFIG2H"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "CCP2MUX",
+                                "value": "00000001"
+                            }
+                        ],
+                        "key": "CONFIG3H"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "STVR",
+                                "value": "00000001"
+                            },
+                            {
+                                "key": "LVP",
+                                "value": "00000004"
+                            },
+                            {
+                                "key": "DEBUG",
+                                "value": "00000080"
+                            }
+                        ],
+                        "key": "CONFIG4L"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "CP0",
+                                "value": "00000001"
+                            },
+                            {
+                                "key": "CP1",
+                                "value": "00000002"
+                            },
+                            {
+                                "key": "CP2",
+                                "value": "00000004"
+                            },
+                            {
+                                "key": "CP3",
+                                "value": "00000008"
+                            }
+                        ],
+                        "key": "CONFIG5L"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "CPB",
+                                "value": "00000040"
+                            },
+                            {
+                                "key": "CPD",
+                                "value": "00000080"
+                            }
+                        ],
+                        "key": "CONFIG5H"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "WRT0",
+                                "value": "00000001"
+                            },
+                            {
+                                "key": "WRT1",
+                                "value": "00000002"
+                            },
+                            {
+                                "key": "WRT2",
+                                "value": "00000004"
+                            },
+                            {
+                                "key": "WRT3",
+                                "value": "00000008"
+                            }
+                        ],
+                        "key": "CONFIG6L"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "WRTC",
+                                "value": "00000020"
+                            },
+                            {
+                                "key": "WRTB",
+                                "value": "00000040"
+                            },
+                            {
+                                "key": "WRTD",
+                                "value": "00000080"
+                            }
+                        ],
+                        "key": "CONFIG6H"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "EBTR0",
+                                "value": "00000001"
+                            },
+                            {
+                                "key": "EBTR1",
+                                "value": "00000002"
+                            },
+                            {
+                                "key": "EBTR2",
+                                "value": "00000004"
+                            },
+                            {
+                                "key": "EBTR3",
+                                "value": "00000008"
+                            }
+                        ],
+                        "key": "CONFIG7L"
+                    },
+                    {
+                        "fields": [
+                            {
+                                "key": "EBTRB",
+                                "value": "00000040"
+                            }
+                        ],
+                        "key": "CONFIG7H"
+                    }
+                ],
+                "core": null,
+                "delay_src_path": null,
+                "mcu": "PIC18F452",
+                "name": null,
+                "scheme": "Default"
+            },
+            "uid": "PIC18F452"
+        }
+    },
+    "toolchain": {
+        "c_compiler": "mikroCPIC1618",
+        "clangd_config": "",
+        "core_path": "PIC/mikroC",
+        "cxx_compiler": "",
+        "gdb": "",
+        "mcu_support": "mcu.support.memcu",
+        "name": "mikroC AI for PIC",
+        "options": {
+            "ANSI_pack": false,
+            "case_sensitive": true,
+            "dynamic_link_literals": false,
+            "generate_additional_files": true,
+            "long_hex_format": false,
+            "ssa_optimization_level": "4"
+        },
+        "path": "mikroc/pic/mikroc",
+        "uid": "mikrocpic",
+        "version": "3.0.0"
+    },
+    "uid": "a75be6e1-6ae3-427f-a48f-b5f82afaba37"
+}
